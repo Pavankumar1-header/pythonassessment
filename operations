@@ -1,0 +1,18 @@
+def operations():
+  number1=int(input("enter number1:"))
+  number2=int(input("enter number2:"))
+  operation=input("enter the operation:")
+  if operation=='+':
+    print("sum=",number1+number2)
+  elif operation=='-':
+    if number1<number2:
+      print("substraction=",number2-number1)
+    else:
+      print("substraction=",number1-number2)
+  elif operation=='*':
+    print("sum=",number1*number2)
+  elif operation=='/':
+    print("sum=",number1/number2)
+  else:
+    print("no operation is stated")
+operations()
