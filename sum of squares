@@ -1,0 +1,14 @@
+def sum_of_squares():
+  try:
+    k=[]
+    while True:
+      i=0
+      num=input("enter number:")
+      if str(num)=='stop':
+        break
+      else:
+        k.append(int(num)*int(num))
+    print(sum(k))
+  except:
+    print("enter integer value")
+sum_of_squares()
