@@ -1,0 +1,5 @@
+def profit(d):
+  profit=round((d['selling_price']-d['cost_price'])*d['inventory'])
+  return profit
+d={'cost_price':32.67,'selling_price':45,'inventory':1200}
+profit(d)
